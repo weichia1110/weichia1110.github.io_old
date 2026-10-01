@@ -11,7 +11,7 @@ const CONFIG = {
     bio: "Your personal bio",
     
     // ★ 【頭像】修改這裡 - 可用相對路徑 (assets/avatar.png) 或完整 URL
-    avatar: "assets/avatar.png",
+    avatar: "assets/avatar/avatar01.png",
     
     // ★ 【背景圖片】修改這裡 - 改成你要的背景圖 URL
     // 例如: "https://images.unsplash.com/photo-xxxx?w=1920&h=1080&fit=crop"
