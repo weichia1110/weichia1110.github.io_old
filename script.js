@@ -23,7 +23,7 @@ const SOCIAL_ICONS = {
 };
 
 const MUSIC_CONFIG = {
-  src: "assets/music/background.mp3",
+  src: "assets/music/doiclenchmyfists.mp3",
   name: "do I clench my fists?",
   artist: "ridgeclub"
 };
@@ -32,8 +32,8 @@ const SNOW_CONFIG = {
   image: "assets/icons/snowflake.png",
   enabled: true,
   amount: 35,
-  minSize: 10,
-  maxSize: 35,
+  minSize: 5,
+  maxSize: 8,
   minSpeed: 5,
   maxSpeed: 12
 };
