@@ -6,8 +6,8 @@
    ===================================================== */
 const CONFIG = {
     // ★ 【個人資料】修改這裡
-    username: "Aiko1314",
-    displayName: "Aiko1314",
+    username: "aiko1314",
+    displayName: "Aiko",
     bio: "Your personal bio",
     
     // ★ 【頭像】修改這裡 - 可用相對路徑 (assets/avatar.png) 或完整 URL
@@ -24,7 +24,7 @@ const CONFIG = {
     },
 
     // ---- 以下為額外設定 ----
-    theme: "purple",                  // purple | blue | pink | cyan | green
+    theme: "white",                  // white | blue | pink | cyan | green
     status: "Available for chat",
     statusType: "online",             // online | idle | dnd | offline
     location: "Taoyuan, Taiwan",
@@ -78,10 +78,10 @@ const CONFIG = {
 };
 
 /* ---------- Settings (localStorage) ---------- */
-const THEMES = { purple: "#a855f7", blue: "#3b82f6", pink: "#ec4899", cyan: "#22d3ee", green: "#34d399" };
+const THEMES = { white: "#ffffff", blue: "#3b82f6", pink: "#ec4899", cyan: "#22d3ee", green: "#34d399" };
 const KEY = "profile-settings-v2";
 const DEF = { 
-    theme: CONFIG.theme in THEMES ? CONFIG.theme : "purple", 
+    theme: CONFIG.theme in THEMES ? CONFIG.theme : "white", 
     effect: "none",
     volume: 0.5, 
     muted: false 
