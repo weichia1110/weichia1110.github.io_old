@@ -6,8 +6,8 @@
    ============================== */
 
 const PROFILE = {
-  name: "My Name",
-  avatar: "assets/avatar.png"
+  name: "Aiko1314",
+  avatar: "assets/avatar/avatar01.jpg"
 };
 
 const SOCIAL_LINKS = {
@@ -24,12 +24,12 @@ const SOCIAL_ICONS = {
 
 const MUSIC_CONFIG = {
   src: "assets/music/background.mp3",
-  name: "我的音樂名稱",
-  artist: "歌手名稱"
+  name: "do I clench my fists?",
+  artist: "ridgeclub"
 };
 
 const SNOW_CONFIG = {
-  image: "assets/snow/snowflake.png",
+  image: "assets/icons/snowflake.png",
   enabled: true,
   amount: 35,
   minSize: 10,
