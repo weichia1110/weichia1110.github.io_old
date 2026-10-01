@@ -11,7 +11,7 @@ const CONFIG = {
     bio: "Your personal bio",
     
     // ★ 【頭像】修改這裡 - 可用相對路徑 (assets/avatar.png) 或完整 URL
-    avatar: "assets/avatar/avatar01.png",
+    avatar: "assets/avatar/avatar01.jpg",
     
     // ★ 【背景圖片】修改這裡 - 改成你要的背景圖 URL
     // 例如: "https://images.unsplash.com/photo-xxxx?w=1920&h=1080&fit=crop"
@@ -27,8 +27,7 @@ const CONFIG = {
     theme: "purple",                  // purple | blue | pink | cyan | green
     status: "Available for chat",
     statusType: "online",             // online | idle | dnd | offline
-    location: "Taipei, Taiwan",
-    joined: "August 19, 2023",
+    location: "Taoyuan, Taiwan",
     badges: [
         { icon: "💎", label: "Premium" },
         { icon: "🔥", label: "Active" },
