@@ -5,11 +5,17 @@
    所有路徑請使用相對路徑（例如 assets/avatar.png）
    ===================================================== */
 const CONFIG = {
+    // ★ 【個人資料】修改這裡
     username: "YourName",
     displayName: "Your Name",
     bio: "Your personal bio",
+    
+    // ★ 【頭像】修改這裡 - 可用相對路徑 (assets/avatar.png) 或完整 URL
     avatar: "assets/avatar.png",
-    background: "assets/background.jpg",
+    
+    // ★ 【背景圖片】修改這裡 - 改成你要的背景圖 URL
+    // 例如: "https://images.unsplash.com/photo-xxxx?w=1920&h=1080&fit=crop"
+    backgroundUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop",
     
     social: {
         github: "#",
@@ -29,25 +35,32 @@ const CONFIG = {
         { icon: "⭐", label: "Favorite" }
     ],
 
-    // 新增：四個玻璃卡片的內容
+    // ★ 【四個玻璃卡片的內容】修改這裡
+    // 卡片 1: 設備
     devices: [
         "Apple MacBook Pro",
         "iPad Air",
         "iPhone 14 Pro",
         "AirPods Pro"
     ],
+    
+    // 卡片 2: 興趣
     interests: [
         "Web Development",
         "UI/UX Design",
         "Coding",
         "Music Production"
     ],
+    
+    // 卡片 3: 最喜歡的動畫
     favoriteAnime: [
         "Attack on Titan",
         "Demon Slayer",
         "Jujutsu Kaisen",
         "One Piece"
     ],
+    
+    // 卡片 4: 歌手
     favoriteArtists: [
         "The Weeknd",
         "Dua Lipa",
@@ -55,12 +68,17 @@ const CONFIG = {
         "Harry Styles"
     ],
 
-    // Spotify 設定 - 直接修改這裡的 URL 和名稱
-    spotifyUrl: "https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDvDm", // 改成你的 Spotify embed URL
-    musicName: "Your Music Title",
-
-    // 背景圖片 URL
-    backgroundUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop"
+    // ★ 【Spotify 音樂】修改這裡
+    // spotifyUrl: 改成你的 Spotify embed URL
+    // 如何取得: 
+    //   1. 在 Spotify 上找到你要的曲子或播放列表
+    //   2. 點「分享」→「複製歌曲連結」
+    //   3. 把連結改成 https://open.spotify.com/embed/track/[ID]
+    //   4. 例如: https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDvDm
+    spotifyUrl: "https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDvDm",
+    
+    // musicName: 改成你要顯示的音樂名稱
+    musicName: "Your Music Title"
 };
 
 /* ---------- Settings (localStorage) ---------- */
