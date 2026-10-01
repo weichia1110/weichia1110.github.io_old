@@ -6,8 +6,8 @@
    ===================================================== */
 const CONFIG = {
     // ★ 【個人資料】修改這裡
-    username: "YourName",
-    displayName: "Your Name",
+    username: "Aiko1314",
+    displayName: "Aiko1314",
     bio: "Your personal bio",
     
     // ★ 【頭像】修改這裡 - 可用相對路徑 (assets/avatar.png) 或完整 URL
@@ -38,10 +38,8 @@ const CONFIG = {
     // ★ 【四個玻璃卡片的內容】修改這裡
     // 卡片 1: 設備
     devices: [
-        "Apple MacBook Pro",
-        "iPad Air",
-        "iPhone 14 Pro",
-        "AirPods Pro"
+        "rtx 3080 ti",
+        "inetel i7",
     ],
     
     // 卡片 2: 興趣
@@ -54,10 +52,9 @@ const CONFIG = {
     
     // 卡片 3: 最喜歡的動畫
     favoriteAnime: [
-        "Attack on Titan",
-        "Demon Slayer",
-        "Jujutsu Kaisen",
-        "One Piece"
+        "實教",
+        "果青",
+        "re0",
     ],
     
     // 卡片 4: 歌手
@@ -75,7 +72,7 @@ const CONFIG = {
     //   2. 點「分享」→「複製歌曲連結」
     //   3. 把連結改成 https://open.spotify.com/embed/track/[ID]
     //   4. 例如: https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDvDm
-    spotifyUrl: "https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDvDm",
+    spotifyUrl: "https://open.spotify.com/track/3wJHCry960drNlAUGrJLmz?si=b46681650fd34c8e",
     
     // musicName: 改成你要顯示的音樂名稱
     musicName: "Your Music Title"
